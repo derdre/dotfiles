@@ -1,5 +1,5 @@
 configuration {
-/*	modi: "window,run,ssh";*/
+	modi: "window,run,ssh";
 	width: 30;
 	lines: 9;
 	columns: 2;
@@ -11,9 +11,9 @@ configuration {
 /*	xoffset: 0;*/
 	fixed-num-lines: true;
 /*	show-icons: false;*/
-/*	terminal: "rofi-sensible-terminal";*/
-/*	ssh-client: "ssh";*/
-/*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
+	terminal: "termite";
+	ssh-client: "ssh";
+	ssh-command: "{terminal} --hold -e '{ssh-client} {host}'";
 /*	run-command: "{cmd}";*/
 /*	run-list-command: "";*/
 /*	run-shell-command: "{terminal} -e {cmd}";*/

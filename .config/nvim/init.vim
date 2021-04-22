@@ -74,6 +74,7 @@ highlight ColorColumn ctermbg=60 guibg=#464b5d
 " tabbing
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd FileType markdown setlocal tabstop=2 shiftwidth=2 expandtab
+autocmd FileType sh setlocal tabstop=4 shiftwidth=4 expandtab
 
 " white spaces
 set listchars=tab:▏·,trail:·,space:·,precedes:·,extends:#,nbsp:.

@@ -1,0 +1,5 @@
+# ignore old configs
+.config_*
+
+# tag file
+tags
